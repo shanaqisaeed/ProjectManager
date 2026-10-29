@@ -1,13 +1,33 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "shanaqisaeed/project-manager",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Open-source enterprise project & task management system built with Laravel — Gantt charts, multi-stage approval workflows, organization chart, RBAC & fine-grained permissions, Jalali calendar support.",
     "keywords": [
         "laravel",
-        "framework"
+        "project-management",
+        "task-management",
+        "gantt-chart",
+        "rbac",
+        "permissions",
+        "approval-workflow",
+        "organization-chart",
+        "jalali",
+        "persian"
     ],
-    "license": "MIT",
+    "homepage": "https://github.com/shanaqisaeed/ProjectManager",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Saeed Shanaqi",
+            "homepage": "https://github.com/shanaqisaeed",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/shanaqisaeed/ProjectManager/issues",
+        "source": "https://github.com/shanaqisaeed/ProjectManager"
+    },
     "require": {
         "php": "^8.3",
         "hekmatinasser/verta": "^9.0",

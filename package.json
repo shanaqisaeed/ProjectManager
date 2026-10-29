@@ -1,7 +1,22 @@
 {
     "$schema": "https://www.schemastore.org/package.json",
+    "name": "project-manager",
+    "description": "Open-source enterprise project & task management system built with Laravel.",
     "private": true,
     "type": "module",
+    "license": "GPL-3.0-only",
+    "author": {
+        "name": "Saeed Shanaqi",
+        "url": "https://github.com/shanaqisaeed"
+    },
+    "homepage": "https://github.com/shanaqisaeed/ProjectManager",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shanaqisaeed/ProjectManager.git"
+    },
+    "bugs": {
+        "url": "https://github.com/shanaqisaeed/ProjectManager/issues"
+    },
     "scripts": {
         "build": "vite build",
         "dev": "vite"
